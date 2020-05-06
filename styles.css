@@ -1,0 +1,528 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300'); */
+
+
+#about, .content{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+#overlay320 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    height: 280px;
+  }
+
+
+  /* #overlay1024 {
+    display: none;
+  } */
+
+
+
+
+
+  #overlay1024 {
+    position: fixed;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+  }
+
+
+  .testimonial {
+    font-size: 15px;
+  }
+
+  h4 {
+    color: white;
+  }
+
+  .headers {
+    width: 100%;
+    height: 55px;
+    background-color: #1A2B6D;
+    text-align: center;
+    padding-top: 12px;
+  }
+
+
+  .PgHeaders {
+    width: 70%;
+    height: 120px;
+    background-color: #1A2B6D;
+    padding-top: 12px;
+    margin-top: 15px;
+  }
+
+
+
+  .imfvid {
+    width: 100%;
+  }
+
+
+  #bookappt {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  
+  }
+
+
+  .cardy {
+    text-align: center;
+
+  }
+
+
+  #about-title {
+    text-align: center;
+
+  }
+
+  .aboutpics {
+    max-width: 250px;
+    height: 180px;
+    border: 1px solid black;
+    margin: 30px;
+  }
+
+
+
+  .about-bot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .aboutlinks {
+    max-width: 270px;
+    height: 180px;
+    margin: 30px;
+    border: 1px solid black;
+  }
+
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+  }
+
+  #btn__reset {
+    padding: 8px;
+    margin: 50px auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: var(--font-size-medium);
+  }
+
+
+  /* Partners */
+
+  #div1 {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  #divdup {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+
+  #div3, #div4, #div5, #div6 {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+
+  /* Industries */
+
+
+  #ourindustry {
+    color: white;
+    margin-left: 40px;
+  }
+
+  .industrypics {
+    text-align: center;
+  }
+
+
+  .industry-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+
+    /* Card */
+
+  #services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .service {
+    width: 18rem;
+    margin: 10px;
+    border-bottom: 4px solid #ccc;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 270px;
+    list-style-type: none;
+  }
+
+  .service:hover {
+    border-color: #1A2B6D;
+  }
+
+
+  .card { 
+    text-align: center;
+    border-style: none;
+  }
+
+  .card1 {   
+    text-align: center;
+    border-style: none;
+  }
+
+
+  /* fin */
+
+
+  /* Why Choose Us */
+
+  #supportteam {
+    margin: 50px;
+  }
+
+  .abouttitle {
+    text-align: left;
+  }
+
+  .spencerbio, .hameenbio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+  #spencer, #zarinah {
+    margin: 40px;
+  }
+
+
+  .imfleaders {
+    margin: 30px; 
+  }
+
+  #aboutus {
+    color: white;
+    margin-left: 40px;
+  }
+
+  /* Social Media Links */
+
+  #contact {
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+  }
+
+   .sociallinks { 
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 35px;
+  }
+
+  .sociallinks1 {  
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+   ul li {
+    display: inline-block;
+  }
+
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .5s;
+  }
+  a.facebook {
+    background-image: url(images/fblogo.svg);
+  }
+  a.linkedin {
+    background-image: url(images/ln.svg);
+  }
+  a.twitter {
+    background-image: url(images/twitter.svg);
+  }
+  a.instagram {
+    background-image: url(images/instagram.svg);
+  }
+  /* a.imf {
+    background-image: url(images/imfbutton.svg);
+  } */
+  a.social:hover {
+    opacity: 1;
+  }
+  .clearfix {
+    clear: both;
+  }
+
+
+  /* Services */
+
+
+  .servicebody {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .youtube {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .paragraph {
+    margin-top: 30px;
+  }
+
+
+  .readmore {
+    color: red;
+  }
+
+
+  .readmore:hover {
+    color: orangered;
+  }
+
+  /* Carousel */
+
+
+  #carouselimg1, #carouselimg2, #carouselimg3, #carouselimg4  {
+    margin: 0 auto;
+    height: 400px;
+  }
+
+  .homeCarousel {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .homeCarousel1 {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .aboutCarousel {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #1A2B6D;
+    height: 630px;
+  }
+
+  .copyright, .phone, .email {
+    color: white;
+  }
+
+  .copyright {
+    font-size: 11px;
+  }
+
+
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+  /* Contact form css */
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+.contactform {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+.contactbutton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+.contactbutton:hover {
+  background-color: #45a049;
+}
+
+
+
+  /* Style inputs with type="text", select elements and textareas */
+  .searchbox {
+    width: 65%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    margin-left: 8px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  #searchbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  #searchbutton:hover {
+    background-color: #45a049;
+  }
+  
+
+  #search-section {
+    display: none;
+    background-color: lightgray;
+  }
+
+  #search-results li {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #atag {
+    text-decoration: underline;
+  }
+
+  /*   Media Queries   */
+
+  @media (min-width: 768px) {
+
+    .spencerbio, .hameenbio {
+      flex-wrap: nowrap;
+    }
+
+
+    .abouttitle {
+      text-align: center;
+    }
+
+
+    .PgHeaders {
+      width: 40%;
+      height: 100px;
+    }
+
+
+    .testimonial {
+      font-size: 20px;
+    }
+  
+
+    /* #overlay320 {
+    
+      height: 435px;
+    } */
+
+
+    #overlay320 {
+      display: none;
+    }
+
+    #overlay1024 {
+      display: flex;
+    }
+
+
+  }
+
+
+  @media (min-width: 1024px) {
+
+
+    nav {
+      z-index: 11;
+      position: fixed;
+    }
+
+
+    .PgHeaders {
+      width: 30%;
+      height: 75px;
+    }
+
+
+    .testimonial {
+      font-size: 21px;
+    }
+
+
+     #imfstart {
+      margin-left: 20%;
+    }
+  }
